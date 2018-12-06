@@ -1,7 +1,5 @@
-import scala.collection.parallel.ParIterableLike.Foreach
-
 /*
- *	For comprehension is scala is used to create the datatype which supports operations like withFilter, map and fliatMap
+ *		For comprehension is scala is used to create the datatype which supports operations like withFilter, map and fliatMap
  * 
  * 	Usage : 
  * 	for (enumerator) yield e  
