@@ -17,5 +17,5 @@ object ForComprehensionClass extends App {
    val twentySomethings = for(user <- userBase if (user.age >= 20 && user.age < 30)) yield user.name
    
    //twentySomethings.foreach(println(_))
-   twentySomethings.foreach(x -> println(x))
+   twentySomethings.foreach(x => println(x))
 }
